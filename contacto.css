@@ -1,0 +1,51 @@
+body{
+    background-color:black; color:white;
+    margin: 0%;
+}
+#header1{
+    display: flex; align-items: center; justify-content: center
+}
+#header1 > h1{
+    font-size: 50px;
+    font-family:monospace;
+}
+#logo{
+    height: 50px; width: 50px
+}
+.a{
+    background: darkslategray;
+    color: floralwhite;
+    display: flex;
+    padding: 5px; 
+    text-decoration: none; 
+    text-align:right;
+}
+.a:hover{
+    background: darkcyan;
+}
+.header2 > nav {
+    display:inline-block ;
+    background: darkslategray;
+    color: floralwhite;
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none; 
+    width: 100%;
+    text-align: center;
+}
+footer{
+    background-color: darkslategray;
+    padding: 10px;
+}
+footer > div{
+    display: flex;
+    justify-content: center;
+    
+}
+#logocoba{
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
